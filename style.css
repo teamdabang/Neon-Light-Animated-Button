@@ -25,6 +25,23 @@ button.neon-button:hover {
   animation: flicker 400ms linear forwards;
 }
 
+.card-wrapper {
+  background: #111;
+  color: #eee;
+  padding: 8px 32px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.card-wrapper .card-heading {
+  color: #fa032c
+}
+
+.card-wrapper p {
+  line-height: 2;
+  margin-botton: 0;
+}
 @keyframes flicker {
   5% {
     border-color: #fa032c;
